@@ -25,6 +25,8 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
   ```
 </p>
 </p>
-```javascript
-console.log("Merhaba Dünya!");
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```

@@ -11,22 +11,13 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
 
 <h1>How To Use?</h1><p>
   <h3>Listen for On Elment Created</h3><p>
-  ```js
-  newRule("class","content",(element)=>{
+  <code>newRule("class","content",(element)=>{
     console.log("Element Has Created: "+element);
-  });
-  ```
+  });</code>
 </p>
 <h3>Listen for On Elment Removed</h3><p>
-  ```js
-  newRule("id","screenRoom",(element)=>{
+  <code>newRule("id","screenRoom",(element)=>{
     console.log("Element Has Removed: "+element);
-  },"removedNodes");
-  ```
+  },"removedNodes");</code>
 </p>
 </p>
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```

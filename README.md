@@ -25,3 +25,6 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
   ```
 </p>
 </p>
+```javascript
+console.log("Merhaba Dünya!");
+```

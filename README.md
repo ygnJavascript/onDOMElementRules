@@ -11,17 +11,13 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
 
 <h1>How To Use?</h1><p>
   <h3>Listen for On Elment Created</h3><p>
-  <code>newRule("class","content",(element)=>{
+  ```jsnewRule("class","content",(element)=>{
     console.log("Element Has Created: "+element);
-  });</code>
+  });```
 </p>
 <h3>Listen for On Elment Removed</h3><p>
-  <code>newRule("id","screenRoom",(element)=>{
+  ```jsnewRule("id","screenRoom",(element)=>{
     console.log("Element Has Removed: "+element);
-  },"removedNodes");</code>
+  },"removedNodes");```
 </p>
 </p>
-
-<script>
-console.log("Merhaba Dünya!");
-</script>

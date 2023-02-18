@@ -10,13 +10,16 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
 </p>
 
 <h1>How To Use?</h1><p>
+<h2>Syntax</h2>
+<p><code>newRule(attribute, attributeName, function, eventType)</code></p><br>
+<h2>Examples</h2>
   <h3>Listen for On Elment Created</h3><p>
-  <code>newRule("class","content",(element)=>{
+  <code>newRule("class","container",(element)=>{
     console.log("Element Has Created: "+element);
   });</code>
 </p>
 <h3>Listen for On Elment Removed</h3><p>
-  <code>newRule("id","screenRoom",(element)=>{
+  <code>newRule("class","container",(element)=>{
     console.log("Element Has Removed: "+element);
   },"removedNodes");</code>
 </p>

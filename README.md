@@ -12,10 +12,10 @@ On Any DOM Element created or removed run your own cods! (for userscript extensi
 <h1>How To Use?</h1><p>
 <h2>Syntax</h2>
 <p><code>let rule = window.rule;
-rule.new(attribute, attributeName, function, eventType)</code></p><br>
+rule.new(elementAttribute, elementAttributeName, function, eventType)</code></p><br>
 <h2>Examples</h2>
   <h3>Listen for On Elment Created</h3><p>
-  <code>newRule("class","container",(element)=>{
+  <code>rule.new("class","container",(element)=>{
     console.log("Element Has Created: "+element);
   });</code><br>
   <h3>Get Elements With Selector</h3><p>
@@ -23,7 +23,7 @@ rule.new(attribute, attributeName, function, eventType)</code></p><br>
   <code>rule.fa(selector) //returns document.querySelectorAll(selector)</code><br>
 </p>
 <h3>Listen for On Elment Removed</h3><p>
-  <code>newRule("class","container",(element)=>{
+  <code>rule.new("class","container",(element)=>{
     console.log("Element Has Removed: "+element);
   },"removedNodes");</code>
 </p>

@@ -22,7 +22,7 @@ rule.new(elementAttribute, elementAttributeName, function, eventType)</code></p>
   <code>rule.f(selector) //returns document.querySelector(selector)</code><br><br>
   <code>rule.fa(selector) //returns document.querySelectorAll(selector)</code><br>
 </p>
-<h3>Listen for On Elment Removed</h3><p>
+<h3>Listen for On Element Removed</h3><p>
   <code>rule.new("class","container",(element)=>{
     console.log("Element Has Removed: "+element);
   },"removedNodes");</code>
